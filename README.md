@@ -1,5 +1,6 @@
 # SGTD
-Link al video: https://drive.google.com/file/d/1Yue1sPELUNl7M5Ei5fB7Nofq94QJkcL-/view?usp=drivesdk
+Link al video: https://drive.google.com/file/d/1hfCdyA4vN6Mw-urbIe9jxytBo1d-xuhk/view?usp=drivesdk
+
  Sistema de Gestion de Tratamientos Dentales
 Introducción
 El proyecto desarrollado es un sistema informático para la gestión integral de una clínica odontológica. Este sistema permite la administración eficiente de pacientes, tratamientos y usuarios, integrando funcionalidades de registro, actualización y consultas mediante una interfaz gráfica en Java Swing, con persistencia en una base de datos MySQL.
