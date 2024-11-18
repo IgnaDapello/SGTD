@@ -43,10 +43,10 @@ public class AcercaDe extends javax.swing.JFrame {
         
         if (sesion_usuario == 1) {
             
-            //significa que la sesion pertenece a un Administrador (la variable obtiene el valor 1 en la clase Administrador) (solo si inicia sesion un Admin, es una bandera)
+            
             setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         } else {
-            //si no entra, significa que es un capturista 
+            
             setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         }
         
@@ -55,8 +55,8 @@ public class AcercaDe extends javax.swing.JFrame {
         Icon icono = new ImageIcon(wallpaper.getImage().getScaledInstance(jLabel_Wallpaper.getWidth(),
                   jLabel_Wallpaper.getHeight(), Image.SCALE_DEFAULT));    
         jLabel_Wallpaper.setIcon(icono);
-        this.repaint(); //el This no es 100% necesario aqui, directamente puedes llamar a repaint() asi solo. **RECORDAR que el this hace referencia a ESTE metodo. 
-        // hasta aqui
+        this.repaint(); // **RECORDAR que el this hace referencia a ESTE metodo. 
+       
         
         
     }
@@ -92,7 +92,7 @@ public class AcercaDe extends javax.swing.JFrame {
 
         jLabel_2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel_2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel_2.setText("Aqui poner link de portfolio");
+        jLabel_2.setText("https://github.com/IgnaDapello/SGTD");
         getContentPane().add(jLabel_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, -1, -1));
         getContentPane().add(jLabel_Wallpaper, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 300));
 
